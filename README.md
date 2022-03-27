@@ -2,8 +2,7 @@
 
 
 ## Ana Modülünüzün yapılandırması aşağıdaki gibi olmalıdır
-
-@NgModule({
+Markup :  `@NgModule({
   declarations: [
     AppComponent,
     PhoneMaskInput
@@ -15,7 +14,8 @@
     NgxMaskModule.forRoot(), 
     FormsModule
 
-  ],
+  ],`
+
 
 ## Örnek Kullanım şekli
 
@@ -25,6 +25,4 @@
 phone-input/mask-listesi.ts dosyasında ülkelerin telefon görünümünü düzenleyenilirsiniz.
 
 
-## Çalışır haldeki görüntüsü
-
-![alt text](floating.PNG)
+)
