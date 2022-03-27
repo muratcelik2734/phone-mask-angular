@@ -2,8 +2,22 @@
 
 
 ## Ana Modülünüzün yapılandırması aşağıdaki gibi olmalıdır
-Markup :  `declarations: [ AppComponent, PhoneMaskInput ], imports: [ReactiveFormsModule.withConfig({ warnOnNgModelWithFormControl: 'never' }), NgxMaskModule.forRoot(), FormsModule],`
 
+```typescript
+@NgModule({
+  declarations: [
+    AppComponent,
+    PhoneMaskInput
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ReactiveFormsModule.withConfig({ warnOnNgModelWithFormControl: 'never' }),
+    NgxMaskModule.forRoot(), 
+    FormsModule
+
+  ],
+```
 
 ## Örnek Kullanım şekli
 
